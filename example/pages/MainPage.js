@@ -8,7 +8,7 @@ import Item from '../components/Item';
 
 class MainPage extends Component {
   static navigationOptions = {
-    title: 'Welcome',
+    title: 'Bienvenido',
   };
   constructor() {
     super();
@@ -31,7 +31,7 @@ class MainPage extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Container>
-          <Header text="Welcome to react-native-custom-ui-stepper" />
+          <Header text="Bienvenido a react-native-custom-ui-stepper" />
           <Item>
             <UIStepper />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>Basic usage</Text>
@@ -39,7 +39,7 @@ class MainPage extends Component {
           <Item>
             <UIStepper displayValue />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Display stepper value
+              Muestra el valor actual
             </Text>
           </Item>
           <Item>
@@ -50,7 +50,7 @@ class MainPage extends Component {
               borderColor="red"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Custom colors
+              Colores personalizados
             </Text>
           </Item>
           <Item>
@@ -62,7 +62,7 @@ class MainPage extends Component {
               fontFamily="Bungee-Regular"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Custom Font Family
+              Fuente personalizada
             </Text>
           </Item>
           <Item>
@@ -73,7 +73,7 @@ class MainPage extends Component {
               borderColor="green"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Custom colors (all different)
+              Colores personalizados (todos diferentes)
             </Text>
           </Item>
           <Item>
@@ -95,7 +95,7 @@ class MainPage extends Component {
               borderWidth={2}
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Rounded off corners
+              Quitar redondez de los bordes
             </Text>
           </Item>
           <Item>
@@ -106,7 +106,7 @@ class MainPage extends Component {
               tintColor="rebeccapurple"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Recolor images
+              Cambiar el color del borde
             </Text>
           </Item>
           <Item>
@@ -119,7 +119,7 @@ class MainPage extends Component {
               incrementImage="https://placehold.it/50x50"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Custom images
+              Imágenes personalizadas
             </Text>
           </Item>
           <Item>
@@ -131,7 +131,7 @@ class MainPage extends Component {
               incrementImage="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              This uses two images from Iconfinder, loaded over the Internet
+              Este usa dos imágenes de Iconfinder, cargadas a través de Internet
             </Text>
           </Item>
           <Item>
@@ -145,8 +145,7 @@ class MainPage extends Component {
               incrementImage="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              This uses SAME two images as the above, from Iconfinder, loaded
-              over the Internet
+              Este usa las mismas imágenes de Iconfinder, pero como locales
             </Text>
           </Item>
           <Item>
@@ -159,7 +158,7 @@ class MainPage extends Component {
               incrementImage="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Mixture of a local and network image
+              Mezcla de una imagen local y una de red
             </Text>
           </Item>
           <Item>
@@ -180,7 +179,7 @@ class MainPage extends Component {
               incrementImage="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Mixture of a local and network image
+              Mezcla de una imagen local y una de red - vertical
             </Text>
           </Item>
           <Item>
@@ -196,7 +195,7 @@ class MainPage extends Component {
               incrementImage="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png"
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Display the decrement button above the increment
+              Muestra el boton de decremento sobre el incremento
             </Text>
           </Item>
           <Item>
@@ -231,7 +230,7 @@ class MainPage extends Component {
               }}
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Use the innerRef prop to gain access to class-based methods
+              Usa las funciones de la referencia interna para controlar el componente
             </Text>
           </Item>
           <Item>
@@ -243,7 +242,7 @@ class MainPage extends Component {
               onDecrement={this.decrement}
             />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>
-              Use a state variable to update the UIStepper
+            Usa una variable de estado para actualizar el UIStepper
             </Text>
           </Item>
         </Container>
