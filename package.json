@@ -1,5 +1,5 @@
 {
-  "name": "react-native-ui-stepper",
+  "name": "react-native-custom-ui-stepper",
   "version": "1.2.4",
   "description": "A react-native implementation of the iOS UIStepper",
   "main": "UIStepper.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hannigand/react-native-ui-stepper.git"
+    "url": "git+git@github.com:tahelromero/react-native-ui-stepper.git"
   },
   "keywords": [
     "react-native",
@@ -20,13 +20,14 @@
     "UIStepper",
     "uikit-stepper"
   ],
-  "author": "Dan Hannigan",
+  "author": "Tahel Romero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hannigand/react-native-ui-stepper/issues"
+    "url": "https//github.com/tahelromero/react-native-ui-stepper/issues"
   },
-  "homepage": "https://github.com/hannigand/react-native-ui-stepper#readme",
+  "homepage": "https//github.com/tahelromero/react-native-ui-stepper#readme",
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "save": "^2.9.0"
   }
 }
