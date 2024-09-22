@@ -1,14 +1,14 @@
 {
   "name": "react-native-custom-ui-stepper",
-  "version": "1.2.4",
-  "description": "A react-native implementation of the iOS UIStepper",
+  "version": "1.2.5",
+  "description": "Una implementación en react-native de UIStepper para iOS",
   "main": "UIStepper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test especificado\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:tahelromero/react-native-ui-stepper.git"
+    "url": "git+git@github.com:tahelromero/react-native-custom-ui-stepper.git"
   },
   "keywords": [
     "react-native",
@@ -23,9 +23,9 @@
   "author": "Tahel Romero",
   "license": "MIT",
   "bugs": {
-    "url": "https//github.com/tahelromero/react-native-ui-stepper/issues"
+    "url": "https//github.com/tahelromero/react-native-custom-ui-stepper/issues"
   },
-  "homepage": "https//github.com/tahelromero/react-native-ui-stepper#readme",
+  "homepage": "https//github.com/tahelromero/react-native-custom-ui-stepper#readme",
   "dependencies": {
     "prop-types": "^15.5.10",
     "save": "^2.9.0"

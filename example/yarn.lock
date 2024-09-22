@@ -3470,9 +3470,9 @@ react-native-tab-view@^0.0.69:
   dependencies:
     prop-types "^15.5.8"
 
-react-native-ui-stepper@^1.2.3:
+react-native-custom-ui-stepper@^1.2.3:
   version "1.2.3"
-  resolved "https://registry.yarnpkg.com/react-native-ui-stepper/-/react-native-ui-stepper-1.2.3.tgz#cb5f855bc4e09ff295432b846f2ca4a17cbba171"
+  resolved "https://registry.yarnpkg.com/react-native-custom-ui-stepper/-/react-native-custom-ui-stepper-1.2.3.tgz#cb5f855bc4e09ff295432b846f2ca4a17cbba171"
   dependencies:
     prop-types "^15.5.10"
 

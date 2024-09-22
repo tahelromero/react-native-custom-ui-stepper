@@ -31,7 +31,7 @@ class MainPage extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Container>
-          <Header text="Welcome to react-native-ui-stepper" />
+          <Header text="Welcome to react-native-custom-ui-stepper" />
           <Item>
             <UIStepper />
             <Text style={{ marginTop: 10, marginBottom: 10 }}>Basic usage</Text>
@@ -260,7 +260,7 @@ class MainPage extends Component {
           }}
           onPress={() => {
             Linking.openURL(
-              'https://github.com/hannigand/react-native-ui-stepper/blob/master/README.md#props',
+              'https://github.com/tahelromero/react-native-custom-ui-stepper/blob/master/README.md#props',
             );
           }}
         >
