@@ -101,7 +101,7 @@ class UIStepper extends Component {
       innerRef(undefined);
     }
   }
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { value: currentValue } = this.props;
     const { value: nextValue } = nextProps;
     if (currentValue !== nextValue) {
